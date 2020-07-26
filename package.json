@@ -1,0 +1,24 @@
+{
+  "name": "ethereum_lottery_dapp",
+  "version": "1.0.0",
+  "description": "This is a lottery game developed on Ethereum platfrom using boilerplate.",
+  "repository": "https://github.com/kuldeep23907/Ethereum-Lottery-Dapp-Using-Boilerplate",
+  "main": "compile.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dot-env": "0.0.1",
+    "dotenv": "^8.2.0",
+    "ganache-cli": "^6.9.1",
+    "mocha": "^8.0.1",
+    "solc": "^0.6.12",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "web3": "^1.2.11"
+  }
+}
