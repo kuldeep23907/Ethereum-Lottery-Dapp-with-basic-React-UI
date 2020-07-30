@@ -22,12 +22,32 @@ var input = {
     }
   }
 
+
 // the output is also json so we have to parse it to read it
 compiledCode = JSON.parse(solc.compile(JSON.stringify(input)));
 // ABI of demo.sol... [{},{},...]
 // console.log((compiledCode).contracts['Lottery.sol'].Lottery.abi);
 // Bytecode of demo.sol... string
 // console.log((compiledCode).contracts['Lottery.sol'].Lottery.evm.bytecode.object)
+
+contractJson = {
+  'abi': {},
+  'bytecode': ''
+};
+for (var contractName in compiledCode.contracts['Lottery.sol']) {
+  contractJson.abi = compiledCode.contracts['Lottery.sol'][contractName].abi;
+  contractJson.bytecode = compiledCode.contracts['Lottery.sol'][contractName].evm.bytecode.object;
+}
+
+// var buildPath = path.resolve(__dirname, 'client/lottery/contract');
+// fs.removeSync(buildPath);
+// fs.ensureDirSync(buildPath);
+var filePath = path.resolve(__dirname, 'client/lottery/contract', 'Lottery.json');
+
+fs.writeFile(filePath, JSON.stringify(contractJson), function(err){
+  if(err)
+      console.error(err);
+})
 
 
 const abi = (compiledCode).contracts['Lottery.sol'].Lottery.abi;
