@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Ethereum-Lottery-Dapp-with-basic-React-UI/static/css/main.5f361e03.chunk.css",
+    "main.js": "/Ethereum-Lottery-Dapp-with-basic-React-UI/static/js/main.0b3f19af.chunk.js",
+    "main.js.map": "/Ethereum-Lottery-Dapp-with-basic-React-UI/static/js/main.0b3f19af.chunk.js.map",
+    "runtime-main.js": "/Ethereum-Lottery-Dapp-with-basic-React-UI/static/js/runtime-main.bb0e961a.js",
+    "runtime-main.js.map": "/Ethereum-Lottery-Dapp-with-basic-React-UI/static/js/runtime-main.bb0e961a.js.map",
+    "static/js/2.21c08fb3.chunk.js": "/Ethereum-Lottery-Dapp-with-basic-React-UI/static/js/2.21c08fb3.chunk.js",
+    "static/js/2.21c08fb3.chunk.js.map": "/Ethereum-Lottery-Dapp-with-basic-React-UI/static/js/2.21c08fb3.chunk.js.map",
+    "index.html": "/Ethereum-Lottery-Dapp-with-basic-React-UI/index.html",
+    "precache-manifest.4cff88962550a6260cec720b177cb62d.js": "/Ethereum-Lottery-Dapp-with-basic-React-UI/precache-manifest.4cff88962550a6260cec720b177cb62d.js",
+    "service-worker.js": "/Ethereum-Lottery-Dapp-with-basic-React-UI/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/Ethereum-Lottery-Dapp-with-basic-React-UI/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.21c08fb3.chunk.js.LICENSE.txt": "/Ethereum-Lottery-Dapp-with-basic-React-UI/static/js/2.21c08fb3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bb0e961a.js",
+    "static/js/2.21c08fb3.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.0b3f19af.chunk.js"
+  ]
+}
